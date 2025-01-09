@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book My Show</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Book My Show</div>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Events</a>
+      <a href="#">Plays</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="login">
+      <a href="#">Sign In</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide"><img src="pngegg.png" alt="UI"><p>UI</p></div>
+        <div class="slide"><img src="36190999_8211429.jpg" alt="MAX"><p>MAX</p></div>
+        <div class="slide"><img src="oppenheimer.jpg" alt="Marco"><p>MARCO</p></div>
+        <div class="slide"><img src="djp.jpg" alt="Kraven The Hunter"><p>Kraven The Hunter</p></div>
+        <!-- Add more slides for other images like music events, etc. -->
+      </div>
+      <div class="arrow left" onclick="plusSlides(-1)">&#10094;</div>
+      <div class="arrow right" onclick="plusSlides(1)">&#10095;</div>
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <!-- Add more dots for additional slides -->
+      </div>
+    </div>
+    <h1>Book Your Favorite Movies, Events, and Plays!</h1>
+    <button class="cta-btn">Explore Now</button>
+  </section>
+
+  <!-- Movies Section -->
+  <section class="movies">
+    <h2>Now Showing</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="Uppi.jpg" alt="UI">
+        <p>UI</p>
+      </div>
+      <div class="movie-card">
+        <img src="Max.jpg" alt="MAX">
+        <p>MAX</p>
+      </div>
+      <div class="movie-card">
+        <img src="marco.jpg" alt="Marco">
+        <p>MARCO</p>
+      </div>
+      <div class="movie-card">
+        <img src="images.jpg" alt="Kraven The Hunter">
+        <p>Kraven The Hunter</p>
+      </div>
+      <!-- Add more movie cards as needed -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Book My Show. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
